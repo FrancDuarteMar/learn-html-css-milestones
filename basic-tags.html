@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Tags</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>HTML Tags</h1>
+    <hr>
+
+    <section>
+        <h2>Basic Tags</h2>
+        <hr>
+        <div>
+            <section>
+                <h4><u>Block-level text containers</u></h4>
+                <div>
+                    <h5>
+                        &lt;p&gt; Tag
+                    </h5>
+                    <p> This is a paragraph in a paragraph tag. Lorem ipsum
+                        dolor
+                        sit amet consectetur adipisicing elit. Explicabo, cum
+                        beatae
+                        odit voluptatum possimus sequi voluptate culpa
+                        voluptatibus
+                        et nam quisquam rerum ratione? Quas tenetur at eum alias
+                        dicta. Qui?</p>
+                </div>
+                <div>
+                    <h5>&lt;blockquote&gt; Tag</h5>
+                    <blockquote
+                        cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote">
+                        The &lt;blockquote&gt; HTML element indicates that the
+                        enclosed text is an extended quotation.</blockquote>
+                </div>
+                <div>
+                    <h5>&lt;pre&gt; Tag</h5>
+                    <pre>
+                Hey
+                this is 
+                pre-formatted text that
+                I set
+                up
+            </pre>
+                </div>
+            </section>
+        </div>
+        <div>
+            <section>
+                <h4><u>Inline text styling</u></h4>
+                <div>
+                    <h5>&lt;em&gt; and &lt;i&gt; Tags</h5>
+                    <p>
+                        Part of this text is <em>important</em>. Can you tell
+                        the
+                        <i>difference?</i>
+                    </p>
+                </div>
+
+                <div>
+                    <h5>&lt;strong&gt; and &lt;b&gt; Tags</h5>
+                    <p>This text has been <strong>modified</strong> to look
+                        <b>bold</b>.</p>
+                </div>
+
+                <div>
+                    <h5>&lt;code&gt; Tag</h5>
+                    <p>The following is a call to a function in my algorithms
+                        class
+                        <code>MSTDQ(G=(V, E))</code></p>
+
+                </div>
+
+            </section>
+
+        </div>
+        <div>
+            <section>
+                <h4><u>Other Tags</u></h4>
+                <div>
+                    <h5>&lt;a&gt; Tag</h5>
+                    <p>
+                        Ever wanted to look something up? Check out this <a
+                            href="http://google.com" target="_blank"
+                            rel="noopener noreferrer">search engine</a>
+                    </p>
+                </div>
+                <div>
+                    <h5>&lt;img&gt; Tag</h5>
+                    Check out this cool logo <br>
+                    <img src="./assets/img/Davidson-Wildcats-Logo-1985.png"
+                        alt="Davidson Sports Logo from 1985" width="50%"
+                        height="70%">
+                </div>
+            </section>
+        </div>
+        <div>
+            <section>
+                <h4><u>Header Tags</u></h4>
+
+                <div>
+                    <h1>h1 tag</h1>
+                    <h2>h2 tag</h2>
+                    <h3>h3 tag</h3>
+                    <h4>h4 tag</h4>
+                    <h5>h5 tag</h5>
+                    <h6>h6 tag</h6>
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <section>
+        <div>
+            <hr>
+            <h2>Lists</h2>
+            <hr>
+        </div>
+        <section>
+            <div>
+                <h4><u>Unordered Lists </u></h4>
+                <div>
+                    <p>These are some of Davidson's logos</p>
+                    <ul>
+                        <li>This is a 1985 logo
+                            <ul>
+                                <li><img src="./assets/img/Davidson-Wildcats-Logo-1985.png"
+                                        alt="Davidson Sports Logo from 1985"
+                                        width="25%" height="40%"></li>
+                            </ul>
+                        </li>
+                        <li>Here is the professional logo in various colors
+                            <ul>
+                                <li>Full color <br> <img
+                                        src="https://marketing-toolbox.davidson.edu/wp-content/uploads/2015/07/black-letters-red-bar-white-diamond_cmyk.png"
+                                        alt="" width="25%"></li>
+                                <li>Black text and image <br>
+                                    <img src="https://marketing-toolbox.davidson.edu/wp-content/uploads/2015/07/black-logo.png"
+                                        alt="" width="25%"></li>
+                                <li>White text, red image, black background <br>
+                                    <img style="background-color: #000000; padding: 5px;"
+                                        src="https://marketing-toolbox.davidson.edu/wp-content/uploads/2015/07/white-letters-red-bar-white-diamond-logo.png"
+                                        alt="" width="25%"></li>
+                                <li>White text and image, black background <br>
+                                    <img style="background-color: #000000; padding: 5px;"
+                                        src="https://marketing-toolbox.davidson.edu/wp-content/uploads/2015/07/white-letters-white-bar-transparent-diamond-logo.png"
+                                        alt="" width="25%"></li>
+                                <li>Department Specific <br>
+                                    <img src="https://marketing-toolbox.davidson.edu/wp-content/uploads/2015/07/Carnegie-Guest-House-DC-logo.jpg"
+                                        alt="" width="25%"></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </div>
+        </section>
+        <section>
+            <div>
+                <h4><u>Unordered Lists </u></h4>
+                <ol>
+                    <li>This is the first item in an ordered list!</li>
+                    <li>This second item even has a nested list!
+                        <ul>
+                            <li>It's quite neat what you can do with lists</li>
+                            <li>There are two types of lists
+                                <ol>
+                                    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol"
+                                        target="_blank">
+                                        <li>Ordered lists</li>
+                                    </a>
+                                    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul" target="_blank"> <li>Unordered Lists</li></a>
+                                </ol>
+                            </li>
+                        </ul>
+                    </li>
+                </ol>
+
+            </div>
+        </section>
+    </section>
+
+    <section>
+        <div>
+            <hr>
+            <h2>Tables</h2>
+            <hr>
+        </div>
+        <section>
+            <div>
+                <h4><u>A simple 3x3 Table</u></h4>
+                <div>
+                    <table>
+                        <thead>
+                          <tr>
+                            <th>1</th>
+                            <th>2</th>
+                            <th>3</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>2</td>
+                            <td>3</td>
+                            <td>1</td>
+                          </tr>
+                          <tr>
+                            <td>3</td>
+                            <td>2</td>
+                            <td>1</td>
+                          </tr>
+                        </tbody>
+                        </table>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div>
+                <h4><u>A 4x3 Table &mdash; Learn about the &lt;p&gt; and &lt;a&gt; tags</u></h4>
+                <div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Tag</th>
+                                <th>Name</th>
+                                <th>Reference #1</th>
+                                <th>Reference #2</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>&lt;p&gt; &lt;/p&gt;</td>
+                                <td>Paragraph tag</td>
+                                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p"
+                                        target="_blank"
+                                        rel="noopener noreferrer">&lt;p&gt;: The
+                                        Paragraph element - HTML: HyperText Markup
+                                        Language | MDN (mozilla.org)</a></td>
+                                <td><a href="https://www.w3schools.com/tags/tag_p.asp"
+                                        target="_blank"
+                                        rel="noopener noreferrer">HTML p tag
+                                        (w3schools.com)</a></td>
+                            </tr>
+                            <tr>
+                                <td>&lt;a&gt; &lt;/a&gt;</td>
+                                <td>Anchor tag </td>
+                                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a"
+                                        target="_blank"
+                                        rel="noopener noreferrer">&lt;a&gt;: The
+                                        Anchor element - HTML: HyperText Markup
+                                        Language | MDN (mozilla.org)</a></td>
+                                <td><a href="https://www.w3schools.com/tags/tag_a.asp"
+                                        target="_blank"
+                                        rel="noopener noreferrer">HTML a tag
+                                        (w3schools.com)</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div>
+                <h4><u>A 3x5 Table &mdash; Learn about the most common attributes of the &lt;a&gt; tag </u></h4>
+
+                <div>
+                    <table>
+                        <thead>
+                          <tr>
+                            <th>Attribute</th>
+                            <th>Values</th>
+                            <th>Purpose</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>href</td>
+                            <td>Link to a document or website</td>
+                            <td>Linked document or website</td>
+                          </tr>
+                          <tr>
+                            <td>id</td>
+                            <td>any-unique-name</td>
+                            <td>ID used for css. Most specific unique identifier</td>
+                          </tr>
+                          <tr>
+                            <td>class</td>
+                            <td>any-name-that-can-be-reused</td>
+                            <td>Class used for css. There can be multiple of the same class</td>
+                          </tr>
+                          <tr>
+                            <td>target</td>
+                            <td><code>_blank</code>,<code> _self</code>,<code> _parent</code>, <code> _top</code></td>
+                            <td>You can specify if the linked object will opened in the same tab, different tab, new window and other options.</td>
+                          </tr>
+                        </tbody>
+                        </table>
+                </div>
+
+            </div>
+        </section>
+    </section>
+
+</body>
+
+</html>

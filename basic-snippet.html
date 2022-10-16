@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anatomy of an HTML Tag</title>
+
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1> The Anatomy of an HTML Tag</h1>
+        <hr>
+        <div>
+            <h3>Reference</h3>
+            <code>
+                &lt;p&gt;<br>
+                    Want to search the web? <br>
+                    Try &lt;a&gt; href="https://google.com" id="the-best-link"
+                        class="banana" target="_blank">Google &lt;/a&gt; <br>
+                        &lt;/p&gt;
+            </code>
+            <hr>
+        </div>
+
+    </div>
+    <div>
+        <div>
+            <h3><u> Reference Explained</u></h3>
+            <h4>Tags Used:</h4>
+            <div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Tag</th>
+                            <th>Name</th>
+                            <th>Reference #1</th>
+                            <th>Reference #2</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>&lt;p&gt; &lt;/p&gt;</td>
+                            <td>Paragraph tag</td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p"
+                                    target="_blank"
+                                    rel="noopener noreferrer">&lt;p&gt;: The
+                                    Paragraph element - HTML: HyperText Markup
+                                    Language | MDN (mozilla.org)</a></td>
+                            <td><a href="https://www.w3schools.com/tags/tag_p.asp"
+                                    target="_blank"
+                                    rel="noopener noreferrer">HTML p tag
+                                    (w3schools.com)</a></td>
+                        </tr>
+                        <tr>
+                            <td>&lt;a&gt; &lt;/a&gt;</td>
+                            <td>Anchor tag </td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a"
+                                    target="_blank"
+                                    rel="noopener noreferrer">&lt;a&gt;: The
+                                    Anchor element - HTML: HyperText Markup
+                                    Language | MDN (mozilla.org)</a></td>
+                            <td><a href="https://www.w3schools.com/tags/tag_a.asp"
+                                    target="_blank"
+                                    rel="noopener noreferrer">HTML a tag
+                                    (w3schools.com)</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div>
+                <h4>Relationships:</h4>
+                <ul>
+                    <li>&lt;a&gt; is the child of &lt;p&gt;</li> 
+                    <li>&lt;p&gt; is the opening tag of &lt;/p&gt;. &lt;/p&gt; is the closing tag of &lt;p&gt;. &lt;p&gt; Begins a paragraph while &lt;/p&gt; ends the paragraph</li>
+                </ul>
+            </div>
+
+            <div>
+                <h4>Attributes:</h4>
+                <div>
+                    <table>
+                        <thead>
+                          <tr>
+                            <th>Attribute</th>
+                            <th>Value</th>
+                            <th>Purpose</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>href</td>
+                            <td>https://google.com</td>
+                            <td>Linked document or website</td>
+                          </tr>
+                          <tr>
+                            <td>id</td>
+                            <td>the-best-link</td>
+                            <td>ID used for css. Most specific unique identifier</td>
+                          </tr>
+                          <tr>
+                            <td>class</td>
+                            <td>banana</td>
+                            <td>Class used for css. There can be multiple of the same class</td>
+                          </tr>
+                          <tr>
+                            <td>target</td>
+                            <td>_blank</td>
+                            <td>_blank allows the linked object to be opened in a new tab. You can specify if it will open in the same tab, different tab, new window and other options.</td>
+                          </tr>
+                        </tbody>
+                        </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

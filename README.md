@@ -117,15 +117,15 @@ Let's make sure we have the basic structure of an HTML page down. Don't worry to
 
 ✏️ You should be able to create a file called `basic-structure.html` that contains the following, structured correctly:
 
-- [ ] ✏️ A `DOCTYPE` declaration
-- [ ] ✏️ A `<html>` tag, containing...
-  - [ ] ✏️ A `<head>` tag, containing...
-    - [ ] ✏️ A `<title>` tag with a title of your choosing
-  - [ ] ✏️ A `<body>` tag containing...
-    - [ ] ✏️ One top-level `<h1>` header
-    - [ ] ✏️ A few paragraphs of text in `<p>` tags
-    - [ ] ✏️ A second-level `<h2>` tag
-    - [ ] ✏️ A few more paragraphs of text in `<p>` tags
+- [X] ✏️ A `DOCTYPE` declaration
+- [X] ✏️ A `<html>` tag, containing...
+  - [X] ✏️ A `<head>` tag, containing...
+    - [X] ✏️ A `<title>` tag with a title of your choosing
+  - [X] ✏️ A `<body>` tag containing...
+    - [X] ✏️ One top-level `<h1>` header
+    - [X] ✏️ A few paragraphs of text in `<p>` tags
+    - [X] ✏️ A second-level `<h2>` tag
+    - [X] ✏️ A few more paragraphs of text in `<p>` tags
 
 
 ### The Anatomy of an HTML Tag

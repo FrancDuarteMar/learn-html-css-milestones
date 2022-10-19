@@ -2,26 +2,58 @@
 body {
   font-family: 'Times New Roman', Times, serif;
   font-size: 18px;
-  line-height: 1.5;
-}
-
-/* Select all h1, h2, ..., h6 tags */
-h1, h2, h3, h4, h5, h6 {
+  line-height: 1.5; 
+  background-color: #d56295;
+  font-weight: 550;
   font-family: Arial, Helvetica, sans-serif;
-}
 
-/* Select the element with id="page" */
-#page {
-  width: 600px;
-  margin: 0 auto;
-}
-
-/* Select all <pre> tags */
-pre {
-  /* Remove leading whitespace from inside <pre> tags */
-  white-space: pre-line;
 }
 
 pre code {
   white-space: pre-line;
 }
+
+.banner{
+  margin: -55% 0 0 0;
+}
+
+.html-list{
+  list-style-type:none;
+}
+
+.main-content{
+  margin-top: 4%;
+}
+
+blockquote{
+  background-color: #eee;
+  padding: 8px;
+  font-weight: 400;
+  border-radius: 15px;
+}
+
+@media (max-width: 767.98px){
+  .cols{
+    border-bottom: 3px solid #40ff00;
+  }
+  .col-left{
+    border-top: 3px solid #40ff00;
+  }
+  }
+@media (min-width: 768px) {
+  .col-left{
+    border-left: 3px dotted #40ff00;
+  }
+  .col-mid{
+    border-left: 3px dotted #40ff00;
+    border-right: 3px dotted #40ff00;
+  }
+  .col-right{
+    border-right: 3px dotted #40ff00;
+  }
+  .cols{
+    border-bottom: 3px solid #40ff00;
+    border-top: 3px solid #40ff00;
+
+  }
+  }

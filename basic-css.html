@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic CSS</title>
+
+    <style>
+    body{
+        background: rgb(128, 215, 128);
+        font-family: 'Courier New', Courier, monospace;
+    }     
+
+
+    h1{
+        color: blue;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 1.7em;
+        font-size: 2.7em;
+        font-style: oblique;
+        font-weight: 1000;
+    }
+    .line{
+        border: dotted red 5px;
+        height: 10px;
+        background-color: black;
+    }
+    div > p{
+        font-weight: 100;
+        font-size: 1.3em;
+    }
+    
+    .lorem{
+        line-height: 100px;
+        padding: 0 20% 0;
+    }
+
+    .mid-section{
+        margin-top: 10%;
+
+    }
+    div{
+        padding: 0 10% 0;
+
+    }
+    .back-img{
+        background-image: url("https://img.freepik.com/free-vector/psychedelic-groovy-background-wavy-lines_23-2148837577.jpg?w=1800&t=st=1666140469~exp=1666141069~hmac=56420c6d53fdd675bbf41c93ac6aab13fe9df658aa95ec2614d160ec3115c8d0");
+    } 
+    div img{
+        width: 100%;
+        height: 90%;
+    }
+
+    #un-list{
+        list-style-type:lower-greek;
+        font-size: 1.3em;
+
+    }
+
+
+
+    </style>
+</head>
+<body>
+
+    <div>
+        <h1>Basic CSS Styles</h1>
+        <hr class = "line">
+    </div>
+
+    <div >
+        <p class="lorem mid-section back-img">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id rerum harum sint quibusdam praesentium aut quia, quis similique minima explicabo optio aspernatur! Neque, nesciunt quasi? Aliquam temporibus sequi optio mollitia!
+        </p>
+        <img class ="mid-section" src="https://img.freepik.com/premium-vector/rainbow-psychedelic-groovy-background_23-2148843956.jpg" >
+        
+        <ul class="lorem mid-section back-img " id="un-list">
+            <li>Lorem ipsum dolor sit amet.
+            </li>
+
+            <li>Aliquam tincidunt mauris eu risus.
+            </li>
+            <li>Vestibulum auctor dapibus neque.
+            </li>
+
+            <li>Nunc dignissim risus id metus.
+            </li>
+
+            <li>
+                Cras ornare tristique elit.
+ 
+            </li>
+        </ul>
+    </div>
+    <img src="https://thumbs.dreamstime.com/b/psychedelic-web-abstract-pattern-hypnotic-background-banner-burlesque-texture-139926692.jpg" style="margin-top: 5%;">
+
+    
+</body>
+</html>
